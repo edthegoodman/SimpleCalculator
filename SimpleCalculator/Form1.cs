@@ -37,6 +37,7 @@ namespace SimpleCalculator
             //    errorDisplay.Visible = false;
             //}
 
+
             mc.FirstValue = Convert.ToDouble(firstValueTextBox.Text);
             mc.SecondValue = Convert.ToDouble(secondValueTextBox.Text);
             resultTextBox.Text = mc.Add().ToString("F");
